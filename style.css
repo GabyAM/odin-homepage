@@ -272,3 +272,49 @@ footer small {
 		justify-content: left;
 	}
 }
+
+@media (min-width: 1000px) {
+	body {
+		gap: 100px;
+	}
+	h2 {
+		text-align: left;
+	}
+	header {
+		display: flex;
+		flex-direction: row;
+		padding: 30px 50px 0 50px;
+	}
+	header .image-container {
+		flex: 1.75;
+		float: none;
+		margin: 0;
+		max-width: 450px;
+	}
+	.image-container h1 {
+		position: static;
+		font-size: 5em;
+	}
+	header .text {
+		flex: 2;
+		margin: auto 0;
+		padding: 25px;
+	}
+	.text .buttons-container {
+		display: flex;
+		float: right;
+	}
+	main {
+		padding: 0 50px;
+	}
+	.projects-container {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.info button {
+		width: 28px;
+		height: 28px;
+	}
+	.info iconify-icon {
+		transform: scale(1.1);
+	}
+}
