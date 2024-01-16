@@ -12,6 +12,16 @@
 body {
 	font-family: "Lato", sans-serif;
 	box-sizing: border-box;
+	justify-items: center;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	gap: 160px;
+	background: linear-gradient(
+		150deg,
+		var(--accent-color) 11%,
+		rgba(0, 0, 0, 0.1) 11%,
+		white 13%
+	);
 }
 
 h1,
